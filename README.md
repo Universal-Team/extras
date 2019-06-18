@@ -11,4 +11,4 @@ What you need to know :
 
 - The Filename should be 'Image.png'.
 
-Thanks to all Contributer! That makes the Universal-Manager to a Very Good Application! :)
+Thanks to all Contributors! That makes the Universal-Manager to a Very Good Application! :)
