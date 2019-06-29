@@ -1,8 +1,9 @@
-# extras
-You can find the Nightly Builds from Universal-Manager, PKMN-Chest, PKMN-Chest-3D here.
+# extras/builds
+You can find nightly builds of Universal-Manager, pkmn-chest, and Relaunch here.
 
-PKMN-Chest-3D : https://github.com/Universal-Team/pkmn-chest-3d
 
 PKMN-Chest : https://github.com/Universal-Team/pkmn-chest
 
-Universal-Manager : https://github.com/Universal-Team/Universal-Updater
+Universal-Manager : https://github.com/Universal-Team/Universal-Manager
+
+Relaunch : https://github.com/Universal-Team/Relaunch
