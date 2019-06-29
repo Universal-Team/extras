@@ -1,9 +1,9 @@
 # extras/builds
-You can find nightly builds of Universal-Manager, pkmn-chest, and Relaunch here.
+You can find nightly builds of Universal-Manager, Pokémon Chest, and Relaunch here.
 
 
-PKMN-Chest : https://github.com/Universal-Team/pkmn-chest
+Pokémon Chest: https://github.com/Universal-Team/pkmn-chest
 
-Universal-Manager : https://github.com/Universal-Team/Universal-Manager
+Universal-Manager: https://github.com/Universal-Team/Universal-Manager
 
-Relaunch : https://github.com/Universal-Team/Relaunch
+Relaunch: https://github.com/Universal-Team/Relaunch
