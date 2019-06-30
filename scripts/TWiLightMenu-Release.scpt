@@ -1,5 +1,5 @@
 msg	Download TWiLightMenu...\n(Release) This may take a while.
-downloadRelease	https://github.com/DS-Homebrew/TWiLightMenu	TWiLightMenu\\.7z	/TWiLightMenu-release.7z
+downloadRelease	https://github.com/DS-Homebrew/TWiLightMenu	TWiLightMenu.7z	/TWiLightMenu-release.7z
 msg	Extract TWiLightMenu++...\n(Release) This may take a while.
 extract	/TWiLightMenu-release.7z	_nds/	/_nds/
 extract	/TWiLightMenu-release.7z	3DS - CFW users/	/
