@@ -1,4 +1,4 @@
-# themes
+# extras/Themes
 Here you can find themes for Universal-Manager's music player.
 
 If you want to contribute your themes, you can do a pull request.
