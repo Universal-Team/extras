@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
 		json[i] = readInfo(scriptsPath+"/"+dirContents[i]);
 	}
 
-	FILE* file = fopen("info.json", "w");
+	FILE* file = fopen("scriptInfo.json", "w");
 	if(file)	fwrite(json.dump().c_str(), 1, json.dump().size(), file);
 	fclose(file);
 
