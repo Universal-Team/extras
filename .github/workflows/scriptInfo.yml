@@ -1,0 +1,20 @@
+name: Update scriptInfo.json
+
+on:
+  push:
+    paths: [Scripts]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build scriptInfo.cpp
+      run: g++ -std=c++11 ScriptsInfo/scriptInfo.cpp -o ScriptsInfo/scriptInfo
+    - name: Run scriptInfo
+      run: |
+        cd ScriptsInfo
+        ./scriptInfo ../Scripts
+        
