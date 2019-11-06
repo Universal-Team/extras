@@ -1,0 +1,32 @@
+name: Update scriptInfo.json
+
+on:
+  push:
+    branches: [scripts]
+
+
+jobs:
+  Run:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build scriptInfo.cpp
+      run: g++ -std=c++11 info/scriptInfo.cpp -o info/scriptInfo
+    - name: Run scriptInfo
+      run: |
+        cd ScriptsInfo
+        ./scriptInfo ..
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v2.1.0
+      with:
+        pattern: "*.json"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: 'Scripts have been updated!'
