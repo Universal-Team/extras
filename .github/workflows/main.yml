@@ -17,7 +17,7 @@ jobs:
       run: g++ -std=c++11 info/scriptInfo.cpp -o info/scriptInfo
     - name: Run scriptInfo
       run: |
-        cd ScriptsInfo
+        cd info
         ./scriptInfo ..
     - name: Commit changes
       uses: EndBug/add-and-commit@v2.1.0
