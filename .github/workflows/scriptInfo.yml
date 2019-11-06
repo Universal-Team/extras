@@ -2,7 +2,8 @@ name: Update scriptInfo.json
 
 on:
   push:
-    paths: /Scripts/*.json
+    paths: [Scripts/*.json]
+
 
 jobs:
   Run:
