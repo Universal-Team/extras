@@ -1,3 +1,2 @@
-# extras
-
-In this repository you can find builds of Universal-Team apps and other stuff from our Projects!
+# extras:scripts
+Here you can find Scripts for Universal-Updater.
