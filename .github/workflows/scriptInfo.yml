@@ -21,7 +21,7 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v2.1.0
       with:
-        pattern: "ScriptsInfo/scriptInfo.json"
+        pattern: "*.json"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Discord notification
