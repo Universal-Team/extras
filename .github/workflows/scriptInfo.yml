@@ -13,11 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build scriptInfo.cpp
-      run: g++ -std=c++11 ScriptsInfo/scriptInfo.cpp -o ScriptsInfo/scriptInfo
+      run: g++ -std=c++11 info/scriptInfo.cpp -o info/scriptInfo
     - name: Run scriptInfo
       run: |
         cd ScriptsInfo
-        ./scriptInfo ../Scripts
+        ./scriptInfo ..
     - name: Commit changes
       uses: EndBug/add-and-commit@v2.1.0
       with:
