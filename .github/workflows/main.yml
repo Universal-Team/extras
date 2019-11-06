@@ -3,6 +3,7 @@ name: Update scriptInfo.json
 on:
   push:
     branches: [scripts]
+    paths: ['*.json']
 
 
 jobs:
