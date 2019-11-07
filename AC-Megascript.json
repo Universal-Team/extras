@@ -1,0 +1,177 @@
+{
+	"info": {
+		"title": "ACNL Megascript",
+		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.",
+        "author": "Universal-Team,Cuyler,Slattz and Dragos240",
+        "barColor": "#36ff33",
+        "bgTopColor": "#ffb200",
+        "bgBottomColor": "#ffb200",
+        "textColor": "#1700ff",
+        "selectedColor": "#b4fa00",
+		"unselectedColor": "#6b9400",
+		"version": 2,
+		"revision": 1
+	},
+	"LeafEdit(release)-cia": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading LeafEdit cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/LeafEdit.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"LeafEdit(release)-3dsx": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit 3dsx (release)... please wait."
+		}
+	],
+	"LeafEdit(nightly)-3dsx": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit 3dsx (nightly)... please wait."
+		}
+	],
+	"LeafEdit(nightly)-cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading LeafEdit cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/LeafEdit.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"SPRITESHEETS": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/Spritesheets.zip",
+			"output": "/Spritesheets.zip",
+			"message": "Downloading LeafEdit Sheets... please wait."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Spritesheets.zip",
+			"input": "/",
+			"output": "/LeafEdit/",
+			"message": "Extracting SpriteSheets... please wait."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/SpriteSheets.zip",
+			"message": "Deleting unneded file."
+		}
+	],
+      "NLTK CIA Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia",
+			"output": "sdmc:/cias/NLTK.cia",
+			"message": "Downloading NLTK cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/cias/NLTK.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/cias/NLTK.cia",
+			"message": "Deleting unneded file."
+		}
+	 ],
+	 "NLTK 3dsx Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx",
+			"output": "/3ds/NLTK/NLTK.3dsx",
+			"message": "Downloading NLTK 3dsx (nightly)... please wait."
+		}
+	],
+      "TownManager cia": [
+		{
+			"type": "downloadRelease",
+                  "repo": "dragos240/TownManager",
+			"file": "TownManager.*\\.zip",
+			"output": "/cias/TownManager.zip",
+			"message": "Downloading TownManager zip ... please wait."
+		},
+            {
+                  "type": "extractFile", 
+                  "file": "/cias/TownManager.zip",
+                  "input": "TownManager/TownManager.cia",
+                  "output": "sdmc:/cias/TownManager.cia",
+			"message": "extracting the cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/cias/TownManager.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/cias/TownManager.cia",
+			"message": "Deleting unneded file."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/cias/TownManager.zip",
+			"message": "Deleting unneded file."
+		}
+       ],
+       "Pocket-NLSE cia": [
+		{
+			"type": "downloadRelease",
+                  "repo": "dragos240/Pocket-NLSE",
+			"file": "Pocket-NLSE.*\\.zip",
+			"output": "/cias/Pocket-NLSE.zip",
+			"message": "Downloading Pocket-NLSE zip ... please wait."
+		},
+            {
+                  "type": "extractFile", 
+                  "file": "/cias/Pocket-NLSE.zip",
+                  "input": "Pocket-NLSE/Pocket-NLSE.cia",
+                  "output": "sdmc:/cias/Pocket-NLSE.cia",
+			"message": "extracting the cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/cias/Pocket-NLSE.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/cias/Pocket-NLSE.cia",
+			"message": "Deleting unneded file."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/cias/Pocket-NLSE.zip",
+			"message": "Deleting unneded file."
+		}
+	 ]
+}
