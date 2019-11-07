@@ -56,7 +56,7 @@ nlohmann::json readInfo(const std::string &path) {
 		if(in["info"].contains("version") && in["info"]["version"].is_number())	out["version"] = in["info"]["version"];
 		if(in["info"].contains("revision") && in["info"]["revision"].is_number())	out["revision"] = in["info"]["revision"];
 	}
-	out["url"] = replaceSpaces("https://github.com/Universal-Team/extras/raw/master/Scripts"+path.substr(path.find_last_of("/")));
+	out["url"] = replaceSpaces("https://github.com/Universal-Team/extras/raw/scripts"+path.substr(path.find_last_of("/")));
 
 	return out;
 }
