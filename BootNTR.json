@@ -1,0 +1,100 @@
+{
+	"info": {
+		"title": "BootNTR",
+		"author": "Nanquitas",
+		"description": "With this script, you can download and\nupdate to the latest releases of BootNTR.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"BootNTR 3DSX (PabloMK7)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Nanquitas/BootNTR",
+			"file": "BootNTRSelector-PabloMK7-Banner.3dsx",
+			"output": "/3ds/BootNTRSelector-PabloMK7-Banner.3dsx",
+			"message": "Downloading the BootNTR 3DSX..."
+		}
+	],
+	"BootNTR CIA (FONZD)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Nanquitas/BootNTR",
+			"file": "BootNTRSelector-FONZD-Banner.cia",
+			"output": "/BootNTRSelector-FONZD-Banner.cia",
+			"message": "Downloading the BootNTR CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BootNTRSelector-FONZD-Banner.cia",
+			"message": "Installing the BootNTR CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BootNTRSelector-FONZD-Banner.cia",
+			"message": "Deleting the downloaded CIA File..."
+		}
+	],
+	"BootNTR CIA (Mode3, FONZD)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Nanquitas/BootNTR",
+			"file": "BootNTRSelector-Mode3-FONZD-Banner.cia",
+			"output": "/BootNTRSelector-Mode3-FONZD-Banner.cia",
+			"message": "Downloading the BootNTR CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BootNTRSelector-Mode3-FONZD-Banner.cia",
+			"message": "Installing the BootNTR CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BootNTRSelector-Mode3-FONZD-Banner.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"BootNTR CIA (Mode3, PabloMK7)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Nanquitas/BootNTR",
+			"file": "BootNTRSelector-Mode3-PabloMK7-Banner.cia",
+			"output": "/BootNTRSelector-Mode3-PabloMK7-Banner.cia",
+			"message": "Downloading the BootNTR CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BootNTRSelector-Mode3-PabloMK7-Banner.cia",
+			"message": "Installing the BootNTR CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BootNTRSelector-Mode3-PabloMK7-Banner.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"BootNTR CIA (PabloMK7)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Nanquitas/BootNTR",
+			"file": "BootNTRSelector-PabloMK7-Banner.cia",
+			"output": "/BootNTRSelector-PabloMK7-Banner.cia",
+			"message": "Downloading the BootNTR CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BootNTRSelector-PabloMK7-Banner.cia",
+			"message": "Installing the BootNTR CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BootNTRSelector-PabloMK7-Banner.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	]
+}

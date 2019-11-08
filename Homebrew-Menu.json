@@ -1,0 +1,24 @@
+{
+	"info": {
+		"title": "Homebrew Menu",
+		"author": "fincs",
+		"description": "With this script, you can update\nto the latest version of the Homebrew Menu.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"Homebrew Menu Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "fincs/new-hbmenu",
+			"file": "boot.3dsx",
+			"output": "/boot.3dsx",
+			"message": "Downloading the Homebrew Menu 3DSX..."
+		}
+	]
+}
