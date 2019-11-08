@@ -1,0 +1,43 @@
+{
+	"info": {
+		"title": "3DShell",
+		"author": "joel16",
+		"description": "With this script, you can download and\nupdate to the latest version of 3DShell.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"3DShell Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "joel16/3DShell",
+			"file": "3DShell.cia",
+			"output": "/3DShell.cia",
+			"message": "Downloading the 3DShell CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DShell.cia",
+			"message": "Installing the 3DShell CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3DShell.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"3DShell Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "joel16/3DShell",
+			"file": "3DShell.3dsx",
+			"output": "/3ds/3DShell.3dsx",
+			"message": "Downloading the 3DShell 3DSX..."
+		}
+	]
+}
