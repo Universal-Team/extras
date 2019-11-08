@@ -1,0 +1,43 @@
+{
+	"info": {
+		"title": "JKSM",
+		"author": "J-D-K",
+		"description": "With this script, you can download and\nupdate to the latest version of JKSM.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"JKSM Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "J-D-K/JKSM",
+			"file": "JKSM.cia",
+			"output": "/JKSM.cia",
+			"message": "Downloading the JKSM CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/JKSM.cia",
+			"message": "Installing the JKSM CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/JKSM.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"JKSM Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "J-D-K/JKSM",
+			"file": "JKSM.3dsx",
+			"output": "/3ds/JKSM.3dsx",
+			"message": "Downloading the JKSM 3DSX..."
+		}
+	]
+}

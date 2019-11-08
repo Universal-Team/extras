@@ -1,0 +1,43 @@
+{
+	"info": {
+		"title": "Anemone3DS",
+		"author": "astronautlevel2",
+		"description": "With this script, you can update\nto the latest version of Anemone3DS.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"Anemone3DS Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "astronautlevel2/Anemone3DS",
+			"file": "Anemone3DS.3dsx",
+			"output": "/3ds/Anemone3DS.3dsx",
+			"message": "Downloading the Homebrew Menu 3DSX..."
+		}
+	],
+  "Anemone3DS Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "astronautlevel2/Anemone3DS",
+			"file": "Anemone3DS.cia",
+			"output": "/Anemone3DS.cia",
+			"message": "Downloading the Anemone3DS CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Anemone3DS.cia",
+			"message": "Installing the Anemone3DS CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Anemone3DS.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	]
+}
