@@ -1,0 +1,279 @@
+{
+	"info": {
+		"title": "Universal-Team Megascript",
+		"author": "Universal-Team",
+		"description": "With this script, you can download the\nfollowing Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"BetterDex Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BetterDex/BetterDex.3dsx",
+			"output": "/3ds/BetterDex.3dsx",
+			"message": "Downloading the BetterDex 3DSX..."
+		}
+	],
+	"BetterDex Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BetterDex/BetterDex.cia",
+			"output": "/BetterDex.cia",
+			"message": "Downloading the BetterDex CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BetterDex.cia",
+			"message": "Installing the BetterDex CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BetterDex.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"LeafEdit Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading the LeafEdit 3DSX..."
+		}
+	],
+	"LeafEdit Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading the LeafEdit CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the LeafEdit CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/LeafEdit.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"LeafEdit Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading the LeafEdit 3DSX..."
+		}
+	],
+	"LeafEdit Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading the LeafEdit CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the LeafEdit CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/LeafEdit.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Project-Athena Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Project-Athena/Project-Athena.3dsx",
+			"output": "/3ds/Project-Athena.3dsx",
+			"message": "Downloading the Project-Athena 3DSX..."
+		}
+	],
+	"Project-Athena Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Project-Athena/Project-Athena.cia",
+			"output": "/Project-Athena.cia",
+			"message": "Downloading the Project-Athena CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Project-Athena.cia",
+			"message": "Installing the Project-Athena CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Project-Athena.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Universal-Manager Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.3dsx",
+			"output": "/3ds/Universal-Manager.3dsx",
+			"message": "Downloading the Universal-Manager 3DSX..."
+		}
+	],
+	"Universal-Manager Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.cia",
+			"output": "/Universal-Manager.cia",
+			"message": "Downloading the Universal-Manager CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Universal-Manager.cia",
+			"message": "Installing the Universal-Manager CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Universal-Manager.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Universal-Manger Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Universal-Manager",
+			"file": "Universal-Manager.3dsx",
+			"output": "/3ds/Universal-Manager.3dsx",
+			"message": "Downloading the Universal-Manager 3DSX..."
+		}
+	],
+	"Universal-Manager Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Universal-Manager",
+			"file": "Universal-Manager.cia",
+			"output": "/Universal-Manager.cia",
+			"message": "Downloading the Universal-Manager CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Universal-Manager.cia",
+			"message": "Installing the Universal-Manager CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Universal-Manager.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Universal-Updater Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
+			"output": "/3ds/Universal-Updater.3dsx",
+			"message": "Downloading the Universal-Updater 3DSX..."
+		}
+	],
+	"Universal-Updater Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
+			"output": "/Universal-Updater.cia",
+			"message": "Downloading the Universal-Updater CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Universal-Updater.cia",
+			"message": "Installing the Universal-Updater CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Universal-Updater.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Universal-Updater Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Universal-Updater",
+			"file": "Universal-Updater.3dsx",
+			"output": "/3ds/Universal-Updater.3dsx",
+			"message": "Downloading the Universal-Updater 3DSX..."
+		}
+	],
+	"Universal-Updater Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Universal-Updater",
+			"file": "Universal-Updater.cia",
+			"output": "/Universal-Updater.cia",
+			"message": "Downloading the Universal-Updater CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Universal-Updater.cia",
+			"message": "Installing the Universal-Updater CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Universal-Updater.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"pkmn-chest Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia",
+			"output": "/pkmn-chest.cia",
+			"message": "Downloading the pkmn-chest CIA..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
+			"output": "/_nds/pkmn-chest/pkmn-chest.nds",
+			"message": "Downloading the pkmn-chest  nds file..."
+		},
+		{
+			"type": "installCia",
+			"file": "/pkmn-chest.cia",
+			"message": "Installing the pkmn-chest CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/pkmn-chest.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"pkmn-chest Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/pkmn-chest",
+			"file": "pkmn-chest.cia",
+			"output": "/pkmn-chest.cia",
+			"message": "Downloading the pkmn-chest CIA..."
+		},
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/pkmn-chest",
+			"file": "pkmn-chest.nds",
+			"output": "/_nds/pkmn-chest/pkmn-chest.nds",
+			"message": "Downloading the pkmn-chest nds file..."
+		},
+		{
+			"type": "installCia",
+			"file": "/pkmn-chest.cia",
+			"message": "Installing the pkmn-chest CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/pkmn-chest.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	]
+}
