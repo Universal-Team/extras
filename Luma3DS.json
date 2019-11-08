@@ -1,0 +1,46 @@
+{
+	"info": {
+		"title": "Luma3DS",
+		"author": "AuroraWright",
+		"description": "With this script, you can update to\nthe latest version of Luma3DS.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"Luma3DS Release (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "AuroraWright/Luma3DS",
+			"file": "Luma3DS.*.zip",
+			"output": "/Luma3DS.zip",
+			"message": "Downloading the Luma3DS ZIP..."
+		},
+    {
+			"type": "extractFile",
+			"file": "Luma3DS.zip",
+      "input": "Luma3DS/boot.firm",
+			"output": "/boot.firm",
+			"message": "Extracting the Luma3DS FIRM..."
+		},
+    {
+			"type": "deleteFile",
+			"file": "/Luma3DS.zip",
+			"message": "Deleting the downloaded ZIP..."
+		}
+	],
+        "Luma3DS Nightly (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "hax0kartik/luma-hourlies",
+			"file": "boot.firm",
+			"output": "/boot.firm",
+			"message": "Downloading the nightly Luma3DS FIRM..."
+		}
+	]
+}
+ 
