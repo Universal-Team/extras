@@ -23,7 +23,7 @@
     {
 			"type": "extractFile",
 			"file": "Luma3DS.zip",
-      "input: "Luma3DS/boot.firm",
+      "input": "Luma3DS/boot.firm",
 			"output": "/boot.firm",
 			"message": "Extracting the Luma3DS FIRM..."
 		},
