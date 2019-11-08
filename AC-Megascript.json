@@ -1,18 +1,18 @@
 {
 	"info": {
-		"title": "ACNL Megascript",
-		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.",
-        "author": "Universal-Team,Cuyler,Slattz and Dragos240",
-        "barColor": "#36ff33",
-        "bgTopColor": "#ffb200",
-        "bgBottomColor": "#ffb200",
-        "textColor": "#1700ff",
-        "selectedColor": "#b4fa00",
-		"unselectedColor": "#6b9400",
+  "revision": 2,
 		"version": 2,
-		"revision": 1
+		"title": "ACNL Megascript",
+		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",
+            "author": "Universal-Team,Cuyler,Slattz and Dragos240",
+            "barColor": "#36ff33",
+            "bgTopColor": "#ffb200",
+            "bgBottomColor": "#ffb200",
+            "textColor": "#1700ff",
+            "selectedColor": "#b4fa00",
+            "unselectedColor": "#6b9400"
 	},
-	"LeafEdit(release)-cia": [
+	"leafEdit(release)-cia": [
 		{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/LeafEdit",
@@ -31,7 +31,7 @@
 			"message": "Deleting unneded file."
 		}
 	],
-	"LeafEdit(release)-3dsx": [
+	"leafEdit(release)-3dsx": [
 		{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/LeafEdit",
@@ -40,7 +40,7 @@
 			"message": "Downloading LeafEdit 3dsx (release)... please wait."
 		}
 	],
-	"LeafEdit(nightly)-3dsx": [
+	"leafEdit(nightly)-3dsx": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
@@ -48,7 +48,7 @@
 			"message": "Downloading LeafEdit 3dsx (nightly)... please wait."
 		}
 	],
-	"LeafEdit(nightly)-cia": [
+	"leafEdit(nightly)-cia": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
@@ -66,7 +66,7 @@
 			"message": "Deleting unneded file."
 		}
 	],
-	"SPRITESHEETS": [
+	"Spritesheet": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/Spritesheets.zip",
@@ -86,7 +86,7 @@
 			"message": "Deleting unneded file."
 		}
 	],
-      "NLTK CIA Nightly": [
+      "nltk cia nightly": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia",
@@ -104,7 +104,7 @@
 			"message": "Deleting unneded file."
 		}
 	 ],
-	 "NLTK 3dsx Nightly": [
+	 "nltk 3dsx nightly": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx",
@@ -112,7 +112,7 @@
 			"message": "Downloading NLTK 3dsx (nightly)... please wait."
 		}
 	],
-      "TownManager cia": [
+      "townmanager cia": [
 		{
 			"type": "downloadRelease",
                   "repo": "dragos240/TownManager",
@@ -143,7 +143,7 @@
 			"message": "Deleting unneded file."
 		}
        ],
-       "Pocket-NLSE cia": [
+       "pocket-nlse cia": [
 		{
 			"type": "downloadRelease",
                   "repo": "dragos240/Pocket-NLSE",
