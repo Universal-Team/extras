@@ -23,14 +23,14 @@
     {
 			"type": "extractFile",
 			"file": "GodMode9.zip",
-      "input": "GodMode9/GodMode9.firm",
+      "input": "/GodMode9.firm",
 			"output": "/luma/payloads",
 			"message": "Extracting the GodMode9 FIRM..."
 		},
     {
 			"type": "extractFile",
 			"file": "/GodMode9.zip",
-      "input": "GodMode9/gm9/",
+      "input": "/gm9/",
 			"output": "/gm9/",
 			"message": "Extracting the gm9 directory..."
 		},
