@@ -2,7 +2,7 @@
 	"info": {
 		"title": "Universal-Team Megascript",
 		"author": "Universal-Team",
-		"description": "With this script, you can download the\nfollowing Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\nScript by The Conceptionist",
+		"description": "With this script, you can download and update\nthe following Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
 		"bgTopColor": "#60A8C0",
@@ -10,7 +10,7 @@
 		"selectedColor": "#78C0D8",
 		"unselectedColor": "#4D7684",
 		"version": 2,
-		"revision": 1
+		"revision": 2
 	},
 	"BetterDex Nightly 3DSX": [
 		{
@@ -237,7 +237,7 @@
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
 			"output": "/_nds/pkmn-chest/pkmn-chest.nds",
-			"message": "Downloading the pkmn-chest  nds file..."
+			"message": "Downloading the pkmn-chest nds file..."
 		},
 		{
 			"type": "installCia",
