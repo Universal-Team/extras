@@ -2,6 +2,7 @@
 	"info": {
 		"title": "NTR/TWL",
 		"author": "Ahezard, Gericom, RocketRobz",
+		"shortDesc": "Includes downloads for TwiLightMenu++, NDS-Bootstrap, and GBARunner2.",
 		"description": "With this Script you can:\n- Update TWiLightMenu++\n- Update NDS-Bootstrap\n- Update GBARunner2",
 		"barColor": "#9e9a99",
 		"bgBottomColor": "#373737",
