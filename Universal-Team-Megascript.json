@@ -2,6 +2,7 @@
 	"info": {
 		"title": "Universal-Team Megascript",
 		"author": "Universal-Team",
+		"shortDesc": "Includes downloads for all Universal-Team projects.",
 		"description": "With this script, you can download and update\nthe following Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
