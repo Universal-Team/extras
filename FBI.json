@@ -1,0 +1,44 @@
+{
+	"info": {
+		"title": "FBI",
+		"author": "Steveice10",
+		"shortDesc": "FBI is a file manager and CIA installer.",
+		"description": "With this script, you can download and\nupdate to the latest version of FBI.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"FBI Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Steveice10/FBI",
+			"file": "FBI.cia",
+			"output": "/FBI.cia",
+			"message": "Downloading the FBI CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/FBI.cia",
+			"message": "Installing the FBI CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/FBI.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"JKSM Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Steveice10/FBI",
+			"file": "FBI.3dsx",
+			"output": "/3ds/FBI.3dsx",
+			"message": "Downloading the FBI 3DSX..."
+		}
+	]
+}
