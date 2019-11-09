@@ -53,6 +53,7 @@ nlohmann::json readInfo(const std::string &path) {
 	if(in.contains("info")) {
 		if(in["info"].contains("title") && in["info"]["title"].is_string())	out["title"] = in["info"]["title"];
 		if(in["info"].contains("author") && in["info"]["author"].is_string())	out["author"] = in["info"]["author"];
+		if(in["info"].contains("shortDesc") && in["info"]["shortDesc"].is_string())	out["shortDesc"] = in["info"]["shortDesc"];
 		if(in["info"].contains("version") && in["info"]["version"].is_number())	out["version"] = in["info"]["version"];
 		if(in["info"].contains("revision") && in["info"]["revision"].is_number())	out["revision"] = in["info"]["revision"];
 	}
