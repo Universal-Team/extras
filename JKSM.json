@@ -2,6 +2,7 @@
 	"info": {
 		"title": "JKSM",
 		"author": "J-D-K",
+		"shortDesc": "JKSM is a 3DS save manager and play coin editor.",
 		"description": "With this script, you can download and\nupdate to the latest version of JKSM.\n\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
