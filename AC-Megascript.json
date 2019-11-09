@@ -1,16 +1,17 @@
 {
 	"info": {
-  "revision": 2,
+ 		"revision": 2,
 		"version": 2,
 		"title": "ACNL Megascript",
+		"shortDesc": "Downloads for LeafEdit, NLTK, TownManager, and Pocket-NLSE.",
 		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",
-            "author": "Universal-Team,Cuyler,Slattz and Dragos240",
-            "barColor": "#36ff33",
-            "bgTopColor": "#ffb200",
-            "bgBottomColor": "#ffb200",
-            "textColor": "#1700ff",
-            "selectedColor": "#b4fa00",
-            "unselectedColor": "#6b9400"
+            	"author": "Universal-Team,Cuyler,Slattz and Dragos240",
+            	"barColor": "#36ff33",
+            	"bgTopColor": "#ffb200",
+            	"bgBottomColor": "#ffb200",
+            	"textColor": "#1700ff",
+            	"selectedColor": "#b4fa00",
+            	"unselectedColor": "#6b9400"
 	},
 	"leafEdit(release)-cia": [
 		{
