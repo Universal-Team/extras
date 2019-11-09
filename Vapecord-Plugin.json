@@ -1,0 +1,58 @@
+{
+	"info": {
+		"title": "Vapecord-Plugin",
+		"author": "Lukas",
+		"shortDesc": "ACNL Vapecord Plugin.",
+		"description": "With this you can:\n- install the latest Version of the Vapecord Plugin made by Lukas.",
+		"barColor": "#9400d3",
+		"bgBottomColor": "#292929",
+		"bgTopColor": "#292929",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#ba55d3",
+		"unselectedColor": "#4b0082",
+		"version": 2,
+		"revision": 1
+	},
+	"Full Version": [
+		{
+			"type": "downloadRelease",
+			"repo": "RedShyGuy/LukasKeo",
+			"file": "Vapecord.Public.zip",
+			"output": "/Vapecord-Public.zip",
+			"message": "Download the latest Plugin... please wait."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Vapecord-Public.zip",
+			"input": "/",
+			"output": "/",
+			"message": "Extracting... please wait."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/Vapecord-Public.zip",
+			"message": "Deleting unneded file."
+		}
+	],
+	"Lite Version": [
+		{
+			"type": "downloadRelease",
+			"repo": "RedShyGuy/LukasKeo",
+			"file": "Vapecord.Public.Lite.zip",
+			"output": "/Vapecord.Public.Lite.zip",
+			"message": "Download the latest Plugin... please wait."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Vapecord.Public.Lite.zip",
+			"input": "/",
+			"output": "/",
+			"message": "Extracting... please wait."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/Vapecord.Public.Lite.zip",
+			"message": "Deleting unneded file."
+		}
+	]
+}
