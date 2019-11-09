@@ -2,6 +2,7 @@
 	"info": {
 		"title": "Homebrew Menu",
 		"author": "fincs",
+		"shortDesc": "The Homebrew Menu allows you to launch .3DSX applications.",
 		"description": "With this script, you can update\nto the latest version of the Homebrew Menu.\n\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",

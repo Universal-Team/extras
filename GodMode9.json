@@ -2,6 +2,7 @@
 	"info": {
 		"title": "GodMode9",
 		"author": "d0k3",
+		"shortDesc": "GodMode9 is an in-depth file manager for Luma3DS.",
 		"description": "With this script, you can download and\nupdate to the latest version of GodMode9.\n\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",

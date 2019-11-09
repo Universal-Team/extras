@@ -2,6 +2,7 @@
     "info": {
         "title": "Universal-Updater",
         "author": "Universal-Team",
+        "shortDesc": "Universal-Updater is an updater that can update 3DS homebrew software.",
         "description": "A universally good updater! :)\nWith this Script you can:\n- update Universal-Updater to:\nNightly (Might be not always stable, but has latest changes.)\nRelease (Stable and official.)",
         "version": 2,
         "revision": 1

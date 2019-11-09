@@ -2,6 +2,7 @@
 	"info": {
 		"title": "LeafEdit",
 		"author": "Universal-Team",
+		"shortDesc": "LeafEdit is an Animal Crossing: New Leaf save manager and editor.",
 		"description": "What is LeafEdit?\nLeafEdit is:\nAn Animal Crossing: New Leaf save manager & editor.\nWith this script you can: \n- Update to the Release version\n- Update to the Nightly version\n- Download the Spritesheets\nMake sure you have the Spritesheets!",
 		"barColor": "#547239",
 		"bgBottomColor": "#2c4d26",

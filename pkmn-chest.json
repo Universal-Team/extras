@@ -2,6 +2,7 @@
 	"info": {
 		"title": "pkmn-chest",
 		"author": "Universal-Team",
+		"shortDesc": "pkmn-chest is a Pokémon Bank-like software for generations 4 and 5.",
 		"description": "Pokémon bank for DS(i)\n\nRelease: Stable builds\nNightly: Latest commit builds, potentially unstable\n\n(cia) options install to the home menu\n(nds) options download a .nds to root",
 		"barColor": "#c7262c",
 		"bgBottomColor": "#292929",
