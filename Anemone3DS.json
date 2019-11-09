@@ -2,6 +2,7 @@
 	"info": {
 		"title": "Anemone3DS",
 		"author": "astronautlevel2",
+		"shortDesc": "Anemone3DS is a 3DS theme & splash manager.",
 		"description": "With this script, you can update\nto the latest version of Anemone3DS.\n\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
