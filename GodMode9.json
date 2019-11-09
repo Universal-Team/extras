@@ -10,7 +10,7 @@
 		"selectedColor": "#78C0D8",
 		"unselectedColor": "#4D7684",
 		"version": 2,
-		"revision": 1
+		"revision": 2
 	},
 	"GodMode9 Release (FIRM)": [
 		{
@@ -20,24 +20,29 @@
 			"output": "/GodMode9.zip",
 			"message": "Downloading the GodMode9 ZIP..."
 		},
-    {
-			"type": "extractFile",
-			"file": "GodMode9.zip",
-      "input: "GodMode9/GodMode9.firm",
-			"output": "/luma/payloads",
-			"message": "Extracting the GodMode9 FIRM..."
-		},
-    {
+    	{
 			"type": "extractFile",
 			"file": "/GodMode9.zip",
-      "input: "GodMode9/gm9/",
-			"output": "/gm9/",
-			"message": "Extracting the gm9 directory..."
+      		"input": "GodMode9.firm",
+			"output": "/luma/payloads/GodMode9.firm",
+			"message": "Extracting the GodMode9 FIRM..."
 		},
-    {
+    	{
+			"type": "extractFile",
+			"file": "/GodMode9.zip",
+      		"input": "gm9/",
+			"output": "/gm9/",
+			"message": "Extracting the /gm9/ directory..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/luma/payloads/GodMode9.firm.sha",
+			"message": "Deleting a stowaway file..."
+		},
+    	{
 			"type": "deleteFile",
 			"file": "/GodMode9.zip",
-			"message": "Extracting the GodMode9 FIRM..."
+			"message": "Deleting the downloaded ZIP file..."
 		}
 	]
 }
