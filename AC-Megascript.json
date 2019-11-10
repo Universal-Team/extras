@@ -7,11 +7,11 @@
 		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",
             	"author": "Universal-Team,Cuyler,Slattz and Dragos240",
             	"barColor": "#36ff33",
-            	"bgTopColor": "#ffb200",
-            	"bgBottomColor": "#ffb200",
-            	"textColor": "#1700ff",
-            	"selectedColor": "#b4fa00",
-            	"unselectedColor": "#6b9400"
+            	"bgTopColor": "#004d00",
+            	"bgBottomColor": "#004d00",
+            	"textColor": "#1f3d7a",
+            	"selectedColor": "#a6ff4d",
+            	"unselectedColor": "#269900"
 	},
 	"leafEdit(release)-cia": [
 		{
