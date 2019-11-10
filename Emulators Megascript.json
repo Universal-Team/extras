@@ -87,25 +87,6 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	/*"mGBA Dev Hourly CIA": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/LeafEdit",
-			"file": "LeafEdit.cia",
-			"output": "/LeafEdit.cia",
-			"message": "Downloading the LeafEdit CIA..."
-		},
-		{
-			"type": "installCia",
-			"file": "/LeafEdit.cia",
-			"message": "Installing the LeafEdit CIA..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "/LeafEdit.cia",
-			"message": "Deleting the downloaded CIA file..."
-		}
-	],*/
 	"Neopop Latest 3DSX": [
 		{
 			"type": "downloadFile",
