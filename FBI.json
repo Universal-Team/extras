@@ -32,7 +32,7 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"JKSM Release (3DSX)": [
+	"FBI Release (3DSX)": [
 		{
 			"type": "downloadRelease",
 			"repo": "Steveice10/FBI",
