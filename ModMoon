@@ -1,0 +1,44 @@
+{
+	"info": {
+		"title": "ModMoon",
+		"author": "Swiftloke",
+		"shortDesc": "ModMoon is a mod manager for Nintendo 3DS games.",
+		"description": "With this script, you can download and\nupdate to the latest version of ModMoon.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 2,
+		"revision": 1
+	},
+	"ModMoon Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Swiftloke/ModMoon",
+			"file": "ModMoon.cia",
+			"output": "/ModMoon.cia",
+			"message": "Downloading the ModMoon CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/ModMoon.cia",
+			"message": "Installing the ModMoon CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/ModMoon.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"ModMoon Release (3DSX)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Swiftloke/ModMoon",
+			"file": "ModMoon.3dsx",
+			"output": "/3ds/ModMoon.3dsx",
+			"message": "Downloading the ModMoon 3DSX..."
+		}
+	]
+}
