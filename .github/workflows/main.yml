@@ -30,4 +30,4 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       uses: Ilshidur/action-discord@master
       with:
-        args: '${{ git diff-tree --no-commit-id --name-only -r HEAD~1 }}'
+        args: '$(git diff-tree --no-commit-id --name-only -r HEAD~1)'
