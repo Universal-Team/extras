@@ -20,13 +20,14 @@ jobs:
         cd info
         ./scriptInfo ..
     - name: Commit changes
-      run: |
-        git stage info/scriptInfo.json
-        git commit -m "Update scriptInfo.json"
-        git push
+      uses: EndBug/add-and-commit@v2.1.0
+      with:
+        pattern: "*.json"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Discord notification
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       uses: Ilshidur/action-discord@master
       with:
-        args: 'Scripts have been updated!'
+        args: '@scripts\nScripts have been updated!'
