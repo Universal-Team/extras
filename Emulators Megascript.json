@@ -1,0 +1,206 @@
+{
+	"info": {
+		"title": "Emulator Megascript",
+		"author": "Glazed_Belmont",
+		"shortDesc": "Includes downloads for emulators.",
+		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS)\n- GameYob (DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont",
+		"barColor": "##000c31",
+		"bgBottomColor": "#000000",
+		"bgTopColor": "#000000",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#00558b",
+		"unselectedColor": "#292b2c",
+		"version": 2,
+		"revision": 1
+	},
+	"Gameyob 3DS 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.zip",
+			"output": "/3ds/GameYob.zip",
+			"message": "Downloading the GameYob Zip..."
+		},
+		{
+            "type": "extractFile",
+            "file": "/3ds/GameYob.zip",
+            "input": "GameYob/3ds-arm/3ds/GameYob/",
+            "output": "/3ds/",
+			"message": "Extracting GameYob..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3ds/GameYob.zip"
+		}
+		
+	],
+	"GameYob 3DS CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.cia",
+			"output": "/GameYob.cia",
+			"message": "Downloading the GameYob (3DS) CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GameYob.cia",
+			"message": "Installing the GameYob (3DS) CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GameYob.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"GameYob (DSi) CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.1/gameyob_DSi.cia",
+			"output": "/gameyob_DSi.cia",
+			"message": "Downloading the GameYob (DSi) CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/gameyob_DSi.cia",
+			"message": "Installing the GameYob (DSi) CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/gameyob_DSi.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"mGBA Preview Release CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/111/latest/mgba.cia",
+			"output": "/mgba.cia",
+			"message": "Downloading the mGBA CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/mgba.cia",
+			"message": "Installing the mGBA CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/mgba.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Neopop Latest 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_3DSX_v0.4.zip",
+			"output": "/3ds/",
+			"message": "Downloading the Neopop Zip..."
+		},
+		{
+            "type": "extractFile",
+            "file": "/3ds/neopop_3DSX_v0.4.zip",
+            "input": "neopop_3DSX_v0.4/neopop/",
+            "output": "/3ds/",
+			"message": "Extracting Neopop..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3ds/neopop_3DSX_v0.4.zip"
+		}
+		
+	],
+	"Neopop Latest CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/120/6715441/neopop_v0.4.cia",
+			"output": "/neopop_v0.4.cia",
+			"message": "Downloading the Neopop CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/neopop_v0.4.cia",
+			"message": "Installing the Neopop CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/neopop_v0.4.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Picodrive Latest 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.2/picodrive_3ds.3dsx",
+			"output": "/3ds/picodrive_3ds.3dsx",
+			"message": "Downloading the latest Picodrive 3DSX..."
+		}
+	],
+	"Picodrive Latest CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/134/latest/picodrive_3ds.cia",
+			"output": "/picodrive_3ds.cia",
+			"message": "Downloading the Picodrive CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/picodrive_3ds.cia",
+			"message": "Installing the Picodrive CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/picodrive_3ds.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Snes9x Release 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.3/snes9x_3ds.3dsx",
+			"output": "/3ds/snes9x_3ds.3dsx",
+			"message": "Downloading the latest Snes9x 3DSX..."
+		}
+	],
+	"Snes9x Release CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/170/latest/snes9x_3ds.cia",
+			"output": "/snes9x_3ds.cia",
+			"message": "Downloading the latest Snes9x CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/snes9x_3ds.cia",
+			"message": "Installing the Snes9x CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/snes9x_3ds.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"VirtuaNES Release 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.4/virtuanes_3ds.3dsx",
+			"output": "/3ds/virtuanes_3ds.3dsx",
+			"message": "Downloading the VirtuaNES 3DSX..."
+		}
+	],
+	"VirtuaNES Release CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/201/latest/virtuanes_3ds.cia",
+			"output": "/virtuanes_3ds.cia",
+			"message": "Downloading the latest VirtuaNES CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/virtuanes_3ds.cia",
+			"message": "Installing the VirtuaNES CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/virtuanes_3ds.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+}
