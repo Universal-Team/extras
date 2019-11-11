@@ -24,7 +24,7 @@
 		{
             "type": "extractFile",
             "file": "/3ds/GameYob.zip",
-            "input": "GameYob/3ds-arm/3ds/GameYob/",
+            "input": "3ds-arm/3ds/GameYob/",
             "output": "/3ds/",
 			"message": "Extracting GameYob..."
 		},
@@ -98,7 +98,7 @@
 		{
             "type": "extractFile",
             "file": "/mGBA-build-latest-3ds.7z",
-            "input": "mGBA-build-latest-3ds/.*/cia/mgba.cia",
+            "input": ".*/cia/mgba.cia",
             "output": "/mgba.cia",
 			"message": "Extracting mGBA..."
 		},
@@ -123,7 +123,7 @@
 		{
             "type": "extractFile",
             "file": "/3ds/neopop_3DSX_v0.4.zip",
-            "input": "neopop_3DSX_v0.4/neopop/",
+            "input": "neopop/",
             "output": "/3ds/",
 			"message": "Extracting Neopop..."
 		},
