@@ -1,9 +1,10 @@
 {
 	"info": {
 		"title": "Emulator Megascript",
-		"author": "Glazed_Belmont",
+		"author": "A lot of people",
 		"shortDesc": "Includes downloads for emulators.",
-		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS)\n- GameYob (DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont",
+		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS & DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont & DualBladedKirito
+",
 		"barColor": "##000c31",
 		"bgBottomColor": "#000000",
 		"bgTopColor": "#000000",
@@ -23,7 +24,7 @@
 		{
             "type": "extractFile",
             "file": "/3ds/GameYob.zip",
-            "input": "GameYob/3ds-arm/3ds/GameYob/",
+            "input": "3ds-arm/3ds/GameYob/",
             "output": "/3ds/",
 			"message": "Extracting GameYob..."
 		},
@@ -51,17 +52,17 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"GameYob (DSi) CIA": [
+	"GameYob DSi CIA": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.1/gameyob_DSi.cia",
 			"output": "/gameyob_DSi.cia",
-			"message": "Downloading the GameYob (DSi) CIA..."
+			"message": "Downloading the GameYob DSi CIA..."
 		},
 		{
 			"type": "installCia",
 			"file": "/gameyob_DSi.cia",
-			"message": "Installing the GameYob (DSi) CIA..."
+			"message": "Installing the GameYob DSi CIA..."
 		},
 		{
 			"type": "deleteFile",
@@ -87,6 +88,31 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
+	"mGBA Latest Dev Build CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z",
+			"output": "/mGBA-build-latest-3ds.7z",
+			"message": "Downloading mGBA 7z..."
+		},
+		{
+            "type": "extractFile",
+            "file": "/mGBA-build-latest-3ds.7z",
+            "input": ".*/cia/mgba.cia",
+            "output": "/mgba.cia",
+			"message": "Extracting mGBA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/mgba.cia",
+			"message": "Installing the mGBA CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/mGBA-build-latest-3ds.7z",
+			"message": "Deleting the downloaded 7z file..."
+		}
+	],
 	"Neopop Latest 3DSX": [
 		{
 			"type": "downloadFile",
@@ -97,7 +123,7 @@
 		{
             "type": "extractFile",
             "file": "/3ds/neopop_3DSX_v0.4.zip",
-            "input": "neopop_3DSX_v0.4/neopop/",
+            "input": "neopop/",
             "output": "/3ds/",
 			"message": "Extracting Neopop..."
 		},
