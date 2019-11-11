@@ -3,7 +3,7 @@
 		"title": "Emulator Megascript",
 		"author": "A lot of people",
 		"shortDesc": "Includes downloads for emulators.",
-		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS)\n- GameYob (DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont & DualBladedKirito
+		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS & DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont & DualBladedKirito
 ",
 		"barColor": "##000c31",
 		"bgBottomColor": "#000000",
@@ -52,17 +52,17 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"GameYob (DSi) CIA": [
+	"GameYob DSi CIA": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.1/gameyob_DSi.cia",
 			"output": "/gameyob_DSi.cia",
-			"message": "Downloading the GameYob (DSi) CIA..."
+			"message": "Downloading the GameYob DSi CIA..."
 		},
 		{
 			"type": "installCia",
 			"file": "/gameyob_DSi.cia",
-			"message": "Installing the GameYob (DSi) CIA..."
+			"message": "Installing the GameYob DSi CIA..."
 		},
 		{
 			"type": "deleteFile",
