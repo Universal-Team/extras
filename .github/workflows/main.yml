@@ -25,9 +25,14 @@ jobs:
         pattern: "*.json"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Discord notification
+    - name: Discord webhook
+      run: |
+        curl -o send.sh https://raw.githubusercontent.com/Universal-Team/discord-webhooks/master/send-scripts.sh
+        chmod +x send.sh
+        ./send.sh $WEBHOOK_URL
+    - name: Discord ping
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       uses: Ilshidur/action-discord@master
       with:
-        args: '${git diff-tree --no-commit-id --name-only -r HEAD~1}'
+        args: '<@&643227999746916372>'
