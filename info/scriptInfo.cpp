@@ -75,6 +75,10 @@ int main(int argc, char *argv[]) {
 		printf("| %s\n", dirContents[i].c_str());
 		json[i] = readInfo(scriptsPath+"/"+dirContents[i]);
 	}
+	
+	// TinyDB megascript
+	json[dirContents.size()] = nlohmann::json::parse("{\"author\":\"DeadPhoenix8091\",\"revision\":0,\"shortDesc\":\"\",\"title\":\"TinyDB Megascript\",\"url\":\"https://tinydb.eiphax.tech/api/universal.json?raw=true\",\"version\":2}");
+
 
 	FILE* file = fopen("scriptInfo.json", "w");
 	if(file)	fwrite(json.dump().c_str(), 1, json.dump().size(), file);
