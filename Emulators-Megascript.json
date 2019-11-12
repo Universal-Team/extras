@@ -97,7 +97,7 @@
 		{
             "type": "extractFile",
             "file": "/mGBA-build-latest-3ds.7z",
-            "input": ".*/cia/mgba.cia",
+            "input": "mGBA-build.*/cia/mgba.cia",
             "output": "/mgba.cia",
 			"message": "Extracting mGBA..."
 		},
