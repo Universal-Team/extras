@@ -42,6 +42,17 @@
 			"output": "/boot.firm",
 			"message": "Downloading the nightly Luma3DS FIRM..."
 		}
-	]
+		
+	],
+	"Luma3DS Plugin Loader (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "mariohackandwright/Luma3DS",
+			"file": "boot.firm",
+			"output": "/boot.firm",
+			"message": "Downloading the plugin loader Luma3DS FIRM..."
+		}
+		
+	],
 }
  
