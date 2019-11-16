@@ -47,7 +47,7 @@
 	"Luma3DS Plugin Loader (FIRM)": [
 		{
 			"type": "downloadRelease",
-			"repo": "mariohackandwright/Luma3DS",
+			"repo": "mariohackandglitch/Luma3DS",
 			"file": "boot.firm",
 			"output": "/boot.firm",
 			"message": "Downloading the plugin loader Luma3DS FIRM..."
