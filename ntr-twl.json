@@ -11,7 +11,7 @@
 		"selectedColor": "#b7b6b6",
 		"unselectedColor": "#4a4848",
 		"version": 2,
-		"revision": 1
+		"revision": 2
 	},
 	"TWiLightMenu++ Release": [
 		{
@@ -189,8 +189,8 @@
 	"NDS-Bootstrap Release": [
 		{
             "type": "downloadRelease",
-            "repo": "Ahezard/nds-bootstrap",
-			"file": "NDS-Bootstrap.7z",
+            "repo": "ahezard/nds-bootstrap",
+			"file": "nds-bootstrap.7z",
 			"output": "/NDS-Bootstrap.7z",
 			"message": "Downloading NDS-Bootstrap..."
 		},
