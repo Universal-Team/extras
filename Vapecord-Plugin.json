@@ -24,7 +24,7 @@
 		{
 			"type": "extractFile",
 			"file": "/Vapecord-Public.zip",
-			"input": "/",
+			"input": "",
 			"output": "/",
 			"message": "Extracting... please wait."
 		},
@@ -45,7 +45,7 @@
 		{
 			"type": "extractFile",
 			"file": "/Vapecord.Public.Lite.zip",
-			"input": "/",
+			"input": "",
 			"output": "/",
 			"message": "Extracting... please wait."
 		},

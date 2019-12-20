@@ -77,7 +77,7 @@
 		{
 			"type": "extractFile",
 			"file": "/Spritesheets.zip",
-			"input": "/",
+			"input": "",
 			"output": "/LeafEdit/",
 			"message": "Extracting SpriteSheets... please wait."
 		},

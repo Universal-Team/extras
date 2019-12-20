@@ -32,14 +32,14 @@
             "type": "extractFile",
             "file": "/TWiLightMenu.7z",
             "input": "TWiLightMenu/3DS - CFW users/",
-            "output": "/",
+            "output": "",
 			"message": "Extract TWLMenu++ Part 2/3..."
         },
 		{
             "type": "extractFile",
             "file": "/TWiLightMenu.7z",
             "input": "TWiLightMenu/DSi&3DS - SD card users/",
-            "output": "/",
+            "output": "",
 			"message": "Extract TWLMenu++ Part 3/3..."
         },
 		{
