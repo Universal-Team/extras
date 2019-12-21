@@ -21,20 +21,20 @@
 			"output": "/Luma3DS.zip",
 			"message": "Downloading the Luma3DS ZIP..."
 		},
-    {
+		{
 			"type": "extractFile",
 			"file": "Luma3DS.zip",
-      "input": "Luma3DS/boot.firm",
+			"input": "Luma3DS/boot.firm",
 			"output": "/boot.firm",
 			"message": "Extracting the Luma3DS FIRM..."
 		},
-    {
+		{
 			"type": "deleteFile",
 			"file": "/Luma3DS.zip",
 			"message": "Deleting the downloaded ZIP..."
 		}
 	],
-        "Luma3DS Nightly (FIRM)": [
+	"Luma3DS Nightly (FIRM)": [
 		{
 			"type": "downloadRelease",
 			"repo": "hax0kartik/luma-hourlies",
@@ -44,4 +44,3 @@
 		}
 	]
 }
- 

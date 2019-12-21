@@ -21,17 +21,17 @@
 			"output": "/GodMode9.zip",
 			"message": "Downloading the GodMode9 ZIP..."
 		},
-    	{
+		{
 			"type": "extractFile",
 			"file": "/GodMode9.zip",
-      		"input": "GodMode9.firm",
+			"input": "GodMode9.firm",
 			"output": "/luma/payloads/GodMode9.firm",
 			"message": "Extracting the GodMode9 FIRM..."
 		},
-    	{
+		{
 			"type": "extractFile",
 			"file": "/GodMode9.zip",
-      		"input": "gm9/",
+			"input": "gm9/",
 			"output": "/gm9/",
 			"message": "Extracting the /gm9/ directory..."
 		},
@@ -40,7 +40,7 @@
 			"file": "/luma/payloads/GodMode9.firm.sha",
 			"message": "Deleting a stowaway file..."
 		},
-    	{
+		{
 			"type": "deleteFile",
 			"file": "/GodMode9.zip",
 			"message": "Deleting the downloaded ZIP file..."

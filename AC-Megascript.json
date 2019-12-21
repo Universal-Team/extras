@@ -1,17 +1,17 @@
 {
 	"info": {
- 		"revision": 3,
+		"revision": 3,
 		"version": 2,
 		"title": "ACNL Megascript",
 		"shortDesc": "Downloads for LeafEdit, NLTK, TownManager, and Pocket-NLSE.",
 		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",
-            	"author": "Universal-Team,Cuyler,Slattz and Dragos240",
-            	"barColor": "#36ff33",
-            	"bgTopColor": "#004d00",
-            	"bgBottomColor": "#004d00",
-            	"textColor": "#1f3d7a",
-            	"selectedColor": "#a6ff4d",
-            	"unselectedColor": "#269900"
+		"author": "Universal-Team,Cuyler,Slattz and Dragos240",
+		"barColor": "#36ff33",
+		"bgTopColor": "#004d00",
+		"bgBottomColor": "#004d00",
+		"textColor": "#1f3d7a",
+		"selectedColor": "#a6ff4d",
+		"unselectedColor": "#269900"
 	},
 	"leafEdit(release)-cia": [
 		{
@@ -87,7 +87,7 @@
 			"message": "Deleting unneded file."
 		}
 	],
-      "nltk cia nightly": [
+	"nltk cia nightly": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia",
@@ -104,8 +104,8 @@
 			"file": "sdmc:/cias/NLTK.cia",
 			"message": "Deleting unneded file."
 		}
-	 ],
-	 "nltk 3dsx nightly": [
+	],
+	"nltk 3dsx nightly": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx",
@@ -113,19 +113,19 @@
 			"message": "Downloading NLTK 3dsx (nightly)... please wait."
 		}
 	],
-      "townmanager cia": [
+	"townmanager cia": [
 		{
 			"type": "downloadRelease",
-                  "repo": "dragos240/TownManager",
+			"repo": "dragos240/TownManager",
 			"file": "TownManager.*\\.zip",
 			"output": "/cias/TownManager.zip",
 			"message": "Downloading TownManager zip ... please wait."
 		},
-            {
-                  "type": "extractFile", 
-                  "file": "/cias/TownManager.zip",
-                  "input": "TownManager/TownManager.cia",
-                  "output": "sdmc:/cias/TownManager.cia",
+		{
+			"type": "extractFile", 
+			"file": "/cias/TownManager.zip",
+			"input": "TownManager/TownManager.cia",
+			"output": "sdmc:/cias/TownManager.cia",
 			"message": "extracting the cia..."
 		},
 		{
@@ -143,20 +143,20 @@
 			"file": "sdmc:/cias/TownManager.zip",
 			"message": "Deleting unneded file."
 		}
-       ],
-       "pocket-nlse cia": [
+	],
+	"pocket-nlse cia": [
 		{
 			"type": "downloadRelease",
-                  "repo": "dragos240/Pocket-NLSE",
+			"repo": "dragos240/Pocket-NLSE",
 			"file": "Pocket-NLSE.*\\.zip",
 			"output": "/cias/Pocket-NLSE.zip",
 			"message": "Downloading Pocket-NLSE zip ... please wait."
 		},
-            {
-                  "type": "extractFile", 
-                  "file": "/cias/Pocket-NLSE.zip",
-                  "input": "Pocket-NLSE/Pocket-NLSE.cia",
-                  "output": "sdmc:/cias/Pocket-NLSE.cia",
+		{
+			"type": "extractFile", 
+			"file": "/cias/Pocket-NLSE.zip",
+			"input": "Pocket-NLSE/Pocket-NLSE.cia",
+			"output": "sdmc:/cias/Pocket-NLSE.cia",
 			"message": "extracting the cia..."
 		},
 		{
@@ -174,5 +174,5 @@
 			"file": "sdmc:/cias/Pocket-NLSE.zip",
 			"message": "Deleting unneded file."
 		}
-	 ]
+	]
 }
