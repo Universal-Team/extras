@@ -1,7 +1,7 @@
 {
 	"info": {
-		"revision": 3,
-		"version": 2,
+		"revision": 4,
+		"version": 3,
 		"title": "ACNL Megascript",
 		"shortDesc": "Downloads for LeafEdit, NLTK, TownManager, and Pocket-NLSE.",
 		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",

@@ -10,8 +10,8 @@
 		"textColor": "#FFFFFF",
 		"selectedColor": "#78C0D8",
 		"unselectedColor": "#4D7684",
-		"version": 2,
-		"revision": 2
+		"version": 3,
+		"revision": 3
 	},
 	"BetterDex Nightly 3DSX": [
 		{
@@ -189,6 +189,9 @@
 			"message": "Downloading the Universal-Updater CIA..."
 		},
 		{
+			"type": "saveConfig"
+		},
+		{
 			"type": "installCia",
 			"file": "/Universal-Updater.cia",
 			"message": "Installing the Universal-Updater CIA..."
@@ -215,6 +218,9 @@
 			"file": "Universal-Updater.cia",
 			"output": "/Universal-Updater.cia",
 			"message": "Downloading the Universal-Updater CIA..."
+		},
+		{
+			"type": "saveConfig"
 		},
 		{
 			"type": "installCia",

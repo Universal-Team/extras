@@ -1,0 +1,82 @@
+{
+	"info": {
+		"title": "Firm Megascript",
+		"author": "A few Developers",
+		"shortDesc": "Firm Megascript to update .firm files.",
+		"description": "Firm-Megascript\n\nWith this you can update your Firms.\nThis contains:\n- CartInstall\n- GodMode9\n- Luma3DS\n\nScript by StackZ.",
+		"version": 3,
+		"revision": 1
+	},
+	"CartInstall": [
+		{
+			"type": "downloadRelease",
+			"repo": "aspargas2/CartInstall",
+			"file": "CartInstall.firm",
+			"output": "/luma/payloads/CartInstall.firm",
+			"message": "Downloading CartInstall.firm..."
+		}
+	],
+	"GodMode9 Release (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "d0k3/GodMode9",
+			"file": "GodMode9.*.zip",
+			"output": "/GodMode9.zip",
+			"message": "Downloading the GodMode9 ZIP..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9.zip",
+			"input": "GodMode9.firm",
+			"output": "/luma/payloads/GodMode9.firm",
+			"message": "Extracting the GodMode9 FIRM..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9.zip",
+			"input": "gm9/",
+			"output": "/gm9/",
+			"message": "Extracting the /gm9/ directory..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/luma/payloads/GodMode9.firm.sha",
+			"message": "Deleting a stowaway file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9.zip",
+			"message": "Deleting the downloaded ZIP file..."
+		}
+	],
+	"Luma3DS Release (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "AuroraWright/Luma3DS",
+			"file": "Luma3DS.*.zip",
+			"output": "/Luma3DS.zip",
+			"message": "Downloading the Luma3DS ZIP..."
+		},
+		{
+			"type": "extractFile",
+			"file": "Luma3DS.zip",
+			"input": "Luma3DS/boot.firm",
+			"output": "/boot.firm",
+			"message": "Extracting the Luma3DS FIRM..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Luma3DS.zip",
+			"message": "Deleting the downloaded ZIP..."
+		}
+	],
+	"Luma3DS Nightly (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "hax0kartik/luma-hourlies",
+			"file": "boot.firm",
+			"output": "/boot.firm",
+			"message": "Downloading the nightly Luma3DS FIRM..."
+		}
+	]
+}
