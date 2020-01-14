@@ -3,15 +3,16 @@
 		"title": "LeafEdit",
 		"author": "Universal-Team",
 		"shortDesc": "LeafEdit is an Animal Crossing: New Leaf save manager and editor.",
-		"description": "What is LeafEdit?\nLeafEdit is:\nAn Animal Crossing: New Leaf save manager & editor.\nWith this script you can: \n- Update to the Release version\n- Update to the Nightly version\n- Download the Spritesheets\nMake sure you have the Spritesheets!",
-		"barColor": "#547239",
-		"bgBottomColor": "#2c4d26",
-		"bgTopColor": "#a8c060",
+		"description": "What is LeafEdit?\nLeafEdit is:\nAn Animal Crossing: New Leaf save manager & editor.\nWith this script you can: \n- Update to the Release version.\n- Update to the Nightly version.\n\nScript created by Main Developer StackZ.",
+		"barColor": "#0e4920",
+		"bgBottomColor": "#177935",
+		"bgTopColor": "#177935",
 		"textColor": "#ffffff",
-		"selectedColor": "#a8c060",
-		"unselectedColor": "#00220c",
+		"selectedColor": "#268228",
+		"unselectedColor": "#264628",
+		"progressbarColor": "#268228",
 		"version": 3,
-		"revision": 3
+		"revision": 4
 	},
 	"release-cia": [
 		{
@@ -64,26 +65,6 @@
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/LeafEdit.cia",
-			"message": "Deleting unneded file."
-		}
-	],
-	"SpriteSheets": [
-		{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/Spritesheets.zip",
-			"output": "/Spritesheets.zip",
-			"message": "Downloading LeafEdit Sheets... please wait."
-		},
-		{
-			"type": "extractFile",
-			"file": "/Spritesheets.zip",
-			"input": "",
-			"output": "/LeafEdit/",
-			"message": "Extracting SpriteSheets... please wait."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/SpriteSheets.zip",
 			"message": "Deleting unneded file."
 		}
 	]

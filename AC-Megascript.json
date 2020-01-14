@@ -1,10 +1,10 @@
 {
 	"info": {
-		"revision": 4,
+		"revision": 5,
 		"version": 3,
 		"title": "ACNL Megascript",
 		"shortDesc": "Downloads for LeafEdit, NLTK, TownManager, and Pocket-NLSE.",
-		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nMake sure you have the SPRITESHEETS FOR LEAF EDIT.\nwhit this script download release and nightly\n(release is stable and nightly maybe not alwaysbut has last changes)",
+		"description": "An Animal Crossing: New Leaf Save Managers & Editors\nwith this script you can download release and nightly\nversions of the Save Managers & Editors.\n(release is stable and nightly maybe not, but it has last changes.)",
 		"author": "Universal-Team,Cuyler,Slattz and Dragos240",
 		"barColor": "#36ff33",
 		"bgTopColor": "#004d00",
@@ -67,26 +67,6 @@
 			"message": "Deleting unneded file."
 		}
 	],
-	"Spritesheet": [
-		{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/Spritesheets.zip",
-			"output": "/Spritesheets.zip",
-			"message": "Downloading LeafEdit Sheets... please wait."
-		},
-		{
-			"type": "extractFile",
-			"file": "/Spritesheets.zip",
-			"input": "",
-			"output": "/LeafEdit/",
-			"message": "Extracting SpriteSheets... please wait."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/SpriteSheets.zip",
-			"message": "Deleting unneded file."
-		}
-	],
 	"nltk cia nightly": [
 		{
 			"type": "downloadFile",
@@ -125,7 +105,7 @@
 			"type": "extractFile", 
 			"file": "/cias/TownManager.zip",
 			"input": "TownManager/TownManager.cia",
-			"output": "sdmc:/cias/TownManager.cia",
+			"output": "/cias/TownManager.cia",
 			"message": "extracting the cia..."
 		},
 		{
@@ -156,7 +136,7 @@
 			"type": "extractFile", 
 			"file": "/cias/Pocket-NLSE.zip",
 			"input": "Pocket-NLSE/Pocket-NLSE.cia",
-			"output": "sdmc:/cias/Pocket-NLSE.cia",
+			"output": "/cias/Pocket-NLSE.cia",
 			"message": "extracting the cia..."
 		},
 		{
