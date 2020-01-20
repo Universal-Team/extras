@@ -121,28 +121,28 @@
 			"type": "downloadFile",
 			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
 			"output": "/TWiLightMenu.7z",
-			"message": "Downloading TWiLight Menu++ Lite (Nightly)..."
+			"message": "Downloading TWiLight Menu++ Nightly (Lite)..."
 		},
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
 			"input": "TWiLightMenu/_nds/",
 			"output": "/_nds/",
-			"message": "Extracting TWiLight Menu++..."
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
 		},
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
 			"input": "TWiLightMenu/3DS - CFW users/",
 			"output": "/",
-			"message": "Extracting TWiLight Menu++..."
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
 		},
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
 			"input": "TWiLightMenu/DSi&3DS - SD card users/",
 			"output": "/",
-			"message": "Extracting TWiLight Menu++..."
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
 		},
 		{
 			"type": "installCia",
@@ -179,7 +179,7 @@
 			"file": "/nds-bootstrap.7z",
 			"input": "nds-bootstrap/",
 			"output": "/_nds/",
-			"message": "Extract nds-bootstrap..."
+			"message": "Extracting nds-bootstrap..."
 		},
 		{
 			"type": "deleteFile",
