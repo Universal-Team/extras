@@ -11,7 +11,7 @@
 		"selectedColor": "#b7b6b6",
 		"unselectedColor": "#4a4848",
 		"version": 3,
-		"revision": 6
+		"revision": 7
 	},
 	"TWiLight Menu++ Release": [
 		{
@@ -24,22 +24,22 @@
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/_nds/",
+			"input": "_nds/",
 			"output": "/_nds/",
 			"message": "Extracting TWiLight Menu++..."
 		},
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/3DS - CFW users/",
-			"output": "",
+			"input": "3DS - CFW users/",
+			"output": "/",
 			"message": "Extracting TWiLight Menu++..."
 		},
 		{
 			"type": "extractFile",
 			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/DSi&3DS - SD card users/",
-			"output": "",
+			"input": "DSi&3DS - SD card users/",
+			"output": "/",
 			"message": "Extracting TWiLight Menu++..."
 		},
 		{
