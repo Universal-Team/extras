@@ -11,7 +11,7 @@
 		"selectedColor": "#931c20",
 		"unselectedColor": "#551013",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
 	"Release (cia)": [
 		{
@@ -88,6 +88,18 @@
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
 			"output": "/pkmn-chest.nds",
 			"message": "Downloading pkmn-chest.nds..."
+		}
+	],
+	"TWiLight Menu++ Boxart": [
+		{
+			"type": "mkdir",
+			"directory": "/_nds/TWiLightMenu/boxart"
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/pkmn-chest/raw/master/resources/pkmn-chest.nds.png",
+			"output": "/_nds/TWiLightMenu/boxart/pkmn-chest.nds.png",
+			"message": "Downloading pkmn-chest.nds.png..."
 		}
 	]
 }
