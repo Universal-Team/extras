@@ -225,6 +225,55 @@
 			"file": "/usrcheat.dat.7z"
 		}
 	],
+	"GodMode9i Release": [
+		{
+			"type": "downloadRelease",
+			"repo": "RocketRobz/GodMode9i",
+			"file": "GodMode9i.7z",
+			"output": "/GodMode9i.7z",
+			"message": "Downloading GodMode9i..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9i.7z",
+			"input": "GodMode9i/GodMode9i.cia",
+			"output": "/GodMode9i.cia",
+			"message": "Extracting GodMode9i..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GodMode9i.cia",
+			"message": "Installing GodMode9i..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9i.cia"
+		}
+	],
+	"GodMode9i Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+			"output": "/GodMode9i.7z",
+			"message": "Downloading GodMode9i Nightly..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9i.7z",
+			"input": "GodMode9i/GodMode9i.cia",
+			"output": "/GodMode9i.cia",
+			"message": "Extracting GodMode9i..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GodMode9i.cia",
+			"message": "Installing GodMode9i..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9i.7z"
+		}
+	],
 	"GBARunner2 Nightly": [
 		{
 			"type": "downloadRelease",
