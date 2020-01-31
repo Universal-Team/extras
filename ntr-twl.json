@@ -236,7 +236,7 @@
 		{
 			"type": "extractFile",
 			"file": "/GodMode9i.7z",
-			"input": "GodMode9i/GodMode9i.cia",
+			"input": "GodMode9i.cia",
 			"output": "/GodMode9i.cia",
 			"message": "Extracting GodMode9i..."
 		},
