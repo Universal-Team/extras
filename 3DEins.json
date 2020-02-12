@@ -1,0 +1,71 @@
+{
+	"info": {
+		"title": "3DEins",
+		"author": "Universal-Team",
+		"shortDesc": "3DEins is a cardgame for Nintendo 3DS.",
+		"description": "3DEins is a cardgame for Nintendo 3DS.\nBetter said it's an UNO clone!\n\nScript created by Main Developer StackZ.",
+		"barColor": "#dc3c00",
+		"bgBottomColor": "#dca000",
+		"bgTopColor": "#dca000",
+		"textColor": "#ffffff",
+		"selectedColor": "#fa3c00",
+		"unselectedColor": "#b43c00",
+		"progressbarColor": "#fa3c00",
+		"version": 3,
+		"revision": 1
+	},
+	"release-cia": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.cia",
+			"output": "/3DEins.cia",
+			"message": "Downloading 3DEins cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"release-3dsx": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins 3dsx (release)... please wait."
+		}
+	],
+	"nightly-3dsx": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
+			"output": "/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins 3dsx (nightly)... please wait."
+		}
+	],
+	"nightly-cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
+			"output": "/3DEins.cia",
+			"message": "Downloading 3DEins cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}
+	]
+}
