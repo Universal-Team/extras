@@ -1,9 +1,9 @@
 {
 	"info": {
 		"title": "NTR/TWL",
-		"author": "Ahezard, Gericom, RocketRobz",
-		"shortDesc": "Includes downloads for TWiLight Menu++, nds-bootstrap, GBARunner2, and GodMode9i.",
-		"description": "With this Script you can:\n- Update TWiLight Menu++\n- Update nds-bootstrap\n- Update GBARunner2\n- Update GodMode9i",
+		"author": "Ahezard, Gericom, RocketRobz, Sono",
+		"shortDesc": "Includes downloads for TWiLight Menu++, nds-bootstrap, GBARunner2, GodMode9i and TWPatch.",
+		"description": "With this Script you can:\n- Update TWiLight Menu++\n- Update nds-bootstrap\n- Update GBARunner2\n- Update GodMode9i\n- Update TWPatch",
 		"barColor": "#9e9a99",
 		"bgBottomColor": "#373737",
 		"bgTopColor": "#373737",
@@ -11,7 +11,7 @@
 		"selectedColor": "#b7b6b6",
 		"unselectedColor": "#4a4848",
 		"version": 3,
-		"revision": 7
+		"revision": 8
 	},
 	"TWiLight Menu++ Release": [
 		{
@@ -291,6 +291,23 @@
 			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
 			"includePrereleases": true,
 			"message": "Downloading GBARunner2... (Nightly)"
+		}
+	],
+	"TWPatch": [
+		{
+			"type": "downloadFile",
+			"file": "https://puu.sh/F8T4f/aeca994099.cia",
+			"output": "/TWPatch.cia",
+			"message": "Downloading TWPatch.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWPatch.cia",
+			"message": "Installing TWPatch..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWPatch.cia"
 		}
 	]
 }
